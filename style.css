@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'google-sans-regular';
+  src: url(./font-productsans/Product\ Sans\ Regular.ttf);
+}
+@font-face {
+  font-family: 'google-sans-bold';
+  src: url(./font-productsans/Product\ Sans\ Bold.ttf);
+}
 *
 {
-  margin:0; padding: 0; font-family: 'Poppins', sans-serif; box-sizing: border-box;
+  margin:0; padding: 0; font-family: 'google-sans-regular', sans-serif; box-sizing: border-box;
 }
 body
 {
